@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/336/original/kitty.jpg?1666200260");
+  max-width: 100%;
+}
+.card {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 40px !important;
+  background-color: #d59bf6 !important;
+  border: 3px solid #5f1854 !important;
+}
+.weather {
+  font-size: 25px;
+  text-align: center;
+}
+
+input {
+  text-align: center !important;
+  display: block !important;
+  margin: 0 auto !important;
+  border: 2px solid #5f1854 !important;
+}
+
+.cat {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.btn-outline-primary {
+  background-color: #f48db4 !important;
+  min-width: 100px;
+  color: black !important;
+  border: 2px solid #5f1854 !important;
+  border-radius: 40px !important;
+  box-shadow: 2px 2px 2px #5f1854 !important;
+}
+.btn-outline-primary:hover {
+  color: #c9356c !important;
+}
+.temp {
+  font-size: 25px;
+  color: grey;
+}
+.current {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f48db4;
+}

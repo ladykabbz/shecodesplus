@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kitty weather</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/91e1085e63.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <h1>NAIROBI</h1>
+
+            </div>
+        </div>
+        <br>
+
+
+        <i class="fa-solid fa-cat" style="text-align: center; font-size: 30px; display: block;"></i>
+
+
+        <div class="card text  mb-3 rounded-pill" style="max-width: 18rem; background-color: #d59bf6;">
+            <div class="card-body">
+                <p class="card-text">
+
+                    <strong class="weather" id="main-weather">
+
+                        WEDNESDAY
+                        <br>
+                        12°C
+                        <br />
+
+
+                        ☀
+                        <br>
+                    </strong>
+                    <br>
+
+                    <strong class="temp" id="temperature">
+                        29°C
+                    </strong>
+
+
+
+
+
+
+                </p>
+                </p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+
+
+        <form id="location-input">
+
+            <input type="text" placeholder="SEARCH LOCATION" id="input">
+            <input type="submit" value="SEARCH" class="search">
+
+
+
+        </form>
+
+
+        <button class="current" id="current-location">
+            CURRENT
+        </button>
+        <hr>
+        </br>
+        <br>
+        <i class="fa-solid fa-cat" style="text-align: center; font-size: 30px; display: block;"></i>
+
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-primary">
+                                tomorrow
+                                <br>
+                                ☀
+                                <br>
+                                30°C
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-primary">
+                                wednesday
+                                <br>
+                                🌧
+                                </br>
+                                12°C
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-primary">
+                                thursday
+                                <br>
+                                ☁
+                                <br>
+                                16°C
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-primary">
+                                friday
+                                <br>
+                                ☀
+                                <br>
+                                32°C
+                            </button>
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-primary">
+                                saturday
+                                <br>
+                                ⛅
+                                <br>
+                                22°C
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <script src="src/app.js"></script>
+</body>
+
+</html>
+
+</div>
+</div>

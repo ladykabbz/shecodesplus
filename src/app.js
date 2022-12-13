@@ -12,7 +12,7 @@ let days = [
 let day = days[now.getDay()];
 let hours = now.getHours();
 let minutes = now.getMinutes();
-weatherInput.innerHTML = `${day}<br>${hours}:${minutes}`;
+weatherInput.innerHTML = `${day}`;
 
 //
 //

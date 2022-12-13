@@ -42,9 +42,33 @@ input {
   font-size: 25px;
   color: grey;
 }
-.current {
+link {
   display: block;
   text-align: center;
   margin: 0 auto;
+  color: black;
+  font-size: 20px;
+}
+.link:hover {
+  color: #5f1854;
+}
+.search {
   background-color: #f48db4;
+}
+.search:hover {
+  background-color: #d59bf6;
+}
+.humid,
+.wind {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 13px;
+}
+.kittyapp {
+  max-width: 600px;
+  border: 3px solid #5f1854;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
 }

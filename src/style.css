@@ -48,3 +48,13 @@ input {
   margin: 0 auto;
   background-color: #f48db4;
 }
+.link {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #5f1854;
+}
+.link:hover {
+  color: black;
+  cursor: pointer;
+}

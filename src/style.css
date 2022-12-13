@@ -42,7 +42,7 @@ input {
   font-size: 25px;
   color: grey;
 }
-link {
+.link {
   display: block;
   text-align: center;
   margin: 0 auto;

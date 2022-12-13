@@ -1,13 +1,13 @@
 let now = new Date();
 let weatherInput = document.querySelector("#main-weather");
 let days = [
-  "SUNDAY 🐈",
-  "MONDAY🐈",
-  "TUESDAY🐈",
-  "WEDNESDAY🐈",
-  "THURSDAY🐈",
-  "FRIDAY🐈",
-  "SATURDAY🐈",
+  "SUNDAY ",
+  "MONDAY",
+  "TUESDAY",
+  "WEDNESDAY",
+  "THURSDAY",
+  "FRIDAY",
+  "SATURDAY",
 ];
 let day = days[now.getDay()];
 let hours = now.getHours();
@@ -22,6 +22,11 @@ function showTemperature(response) {
   let temperature = document.querySelector("#temperature");
   city.innerHTML = response.data.name;
   temperature.innerHTML = `${Math.round(response.data.main.temp)}°C`;
+  let windElement = document.querySelector("#win");
+  let humidityElement = document.querySelector("#hum");
+
+  windElement.innerHTML = Math.round(response.data.wind.speed);
+  humidityElement.innerHTML = response.data.main.humidity;
 }
 
 function searchCity(city) {

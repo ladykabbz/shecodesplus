@@ -28,6 +28,8 @@ input {
   margin: auto;
 }
 .btn-outline-primary {
+  display: inline-block !important;
+  text-align: center;
   background-color: #f48db4 !important;
   min-width: 100px;
   color: black !important;

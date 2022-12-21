@@ -37,9 +37,7 @@ input {
   border-radius: 40px !important;
   box-shadow: 2px 2px 2px #5f1854 !important;
 }
-.btn-outline-primary:hover {
-  color: #c9356c !important;
-}
+
 .temp {
   font-size: 25px;
   color: grey;
@@ -73,4 +71,13 @@ input {
   border-radius: 10px;
   margin: 0 auto;
   padding: 20px;
+}
+.row {
+  text-align: center;
+  display: inline-block;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
